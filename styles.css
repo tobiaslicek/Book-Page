@@ -1,11 +1,12 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: #3d3b49;
   letter-spacing: 0.016rem;
-  max-width: 90ch;
 }
 
 header {
@@ -29,6 +30,7 @@ header a:focus {
 main {
   margin: 3rem;
   line-height: 1.8;
+  max-width: 90ch;
 }
 
 .about {
@@ -39,6 +41,7 @@ main {
 img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 2rem;
+  vertical-align: middle;
 }
 
 h1 {
@@ -77,6 +80,7 @@ footer p {
   color: aliceblue;
   text-decoration: none;
   font-weight: 400;
+  max-width: 90ch;
 }
 
 footer h3 {
